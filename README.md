@@ -19,7 +19,9 @@ I have done some exploratory data analysis and some of the insights can be found
 
 ## Models
 The data provided had over 300 features. Using the SelectFromModel from scikit-learn, I was able to reduce this number to the 100 most meaningful features.
+
 Once I had all my features selected, I built a final model using the imbalanced XGBoost. 
+
 I achieved a score of 90% on the kaggle leaderboard.
 
 
